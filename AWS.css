@@ -110,13 +110,11 @@ body {
 .tm-site-title {
     padding-top: 35px;
     font-size: 3.6rem;
-    font-weight: 200;
 }
 
 
 .tm-site-description {
   font-size: 2.0rem;
-  font-weight: 200;
 }
 
 
@@ -182,6 +180,7 @@ margin-left: -55px;
   margin-bottom: 0;
   padding-right: 25px;
   padding-left: 25px;
+  font-weight: 400;
 }
 
 
