@@ -640,19 +640,19 @@ code {
 }
 
 .image-item:nth-child(1) {
-  height: 84px;
+  height: 90px;
 }
 
 .image-item:nth-child(2) {
-  height: 91px;
+  height: 97px;
 }
 
 .image-item:nth-child(3) {
-  height: 145px;
+  height: 155px;
 }
 
 .image-item:nth-child(4) {
-  height: 90px;
+  height: 96px;
 }
 
 
