@@ -646,8 +646,7 @@ code {
 @media only screen and (max-width: 768px) {
  .image-row img,
  .image-row object {
-    width: 80px;
-    height: auto;
+    height: 80;
     margin-right: 0;
     margin-bottom: 10px;
   }
