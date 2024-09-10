@@ -629,24 +629,15 @@ code {
 
 
 /* Layout for the pictures of sponsors */
-.image-row1 {
+.image-row {
   display: flex;
   justify-content: flex-start;
   gap: 40px;
 }
 
-.image-row1 img,
-.image-row1 object {
+.image-row img,
+.image-row object {
   height: 110px;
 }
 
-.image-row2 {
-  display: flex;
-  justify-content: flex-start;
-  gap: 40px;
-}
 
-.image-row2 img,
-.image-row2 object {
-  height: 135px;
-}
