@@ -629,26 +629,35 @@ code {
 
 
 /* Layout for the pictures of sponsors */
-.image-row {
+.image-grid {
   display: flex;
-  justify-content: flex-start;
-  gap: 10px;
+  flex-direction: column;
+  gap: 15px; /* 设置纵向间距 */
 }
 
-.image-row img,
-.image-row object {
-  height: 90px;
+.image-item {
+  align-self: flex-start;
+}
+
+.image-item:nth-child(1) {
+  height: 84px;
+}
+
+.image-item:nth-child(2) {
+  height: 91px;
+}
+
+.image-item:nth-child(3) {
+  height: 145px;
+}
+
+.image-item:nth-child(4) {
+  height: 135px;
 }
 
 
 
 
-@media only screen and (max-width: 768px) {
- .image-row img,
- .image-row object {
-    height: 80;
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-}
+
+
 
