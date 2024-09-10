@@ -632,12 +632,12 @@ code {
 .image-row {
   display: flex;
   justify-content: flex-start;
-  gap: 40px;
+  gap: 10px;
 }
 
 .image-row img,
 .image-row object {
-  height: 110px;
+  height: 100px;
 }
 
 
