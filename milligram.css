@@ -631,12 +631,12 @@ code {
 /* Layout for the pictures of sponsors */
 .image-grid {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap; /* 允许换行 */
   gap: 15px; /* 设置纵向间距 */
 }
 
 .image-item {
-  align-self: flex-start;
+  align-self: center;
 }
 
 .image-item:nth-child(1) {
@@ -644,7 +644,7 @@ code {
 }
 
 .image-item:nth-child(2) {
-  height: 98px;
+  height: 99.5px;
 }
 
 .image-item:nth-child(3) {
@@ -652,19 +652,19 @@ code {
 }
 
 .image-item:nth-child(4) {
-  height: 69px;
+  height: 67.5px;
 }
 
 .image-item:nth-child(5) {
-  height: 69.5px;
+  height: 69.2px;
 }
 
 .image-item:nth-child(6) {
-  height: 105px;
+  height: 111px;
 }
 
 .image-item:nth-child(7) {
-  height: 121px;
+  height: 120px;
 }
 
 
